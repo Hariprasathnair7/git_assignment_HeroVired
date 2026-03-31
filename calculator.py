@@ -15,6 +15,8 @@ class Calculator:
         return a / b
 
     # Square root function
+    # Square root feature supposed to be added as part of feature/sqrt branch 
+    # but added earlier. So inserting num4 to calculate sqrt in new branch
     def square_root(self, x):
         return math.sqrt(x)
 
@@ -31,3 +33,6 @@ if __name__ == "__main__":
 
     num3 = 25
     print(f"The square root of {num3} = {calculator.square_root(num3)}")
+    num4 = 36
+    print(f"The square root of {num4} = {calculator.square_root(num4)}")
+            
